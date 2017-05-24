@@ -18,8 +18,8 @@ app.use('/js/:id', function( req, res ){
             content += `let fun${i} = function(){console.log("hello world")};\n`
         }
     } else {
-        let id = parseInt(req.params.id, 10) *100+1
-        for(let i = id, length =  id+100; i < length ; i++){
+        let id = parseInt(req.params.id, 10) *400+1
+        for(let i = id, length =  id+400; i < length ; i++){
             content += `let fun${new Date().getTime()}${i} = function(){console.log("hello world")};\n`
         }
 
@@ -28,7 +28,7 @@ app.use('/js/:id', function( req, res ){
     //每段资源都等待一段时间才回应
     setTimeout(function(){
         res.end(content)
-    }, 300)
+    }, 1000 * Math.random())
 })
 
 let port = 8081
