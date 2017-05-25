@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <ul></ul>
-        <script>
-            let ul  = document.querySelector('ul')
-            for(let i = 0; i < 100 ; i++){
+<body>
+    <ul></ul>
+    <script>
+        (function () {
+            let ul = document.querySelector('ul')
+            for (let i = 0; i < 100; i++) {
                 let li = document.createElement('li')
-                li.appendChild(document.createTextNode('hello world'+i))
+                li.appendChild(document.createTextNode('hello world' + i))
                 setTimeout(function(){
                     ul.appendChild(li)
-                },200)
+                },0)
             }
-        </script>
-    </body>
+        })()
+    </script>
+</body>
+
 </html>

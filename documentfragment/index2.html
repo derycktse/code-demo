@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
-     <ul></ul>
-    <body>
-        <script>
-            let ul = document.querySelector('ul')    
+<body>
+    <ul></ul>
+    <script>
+        (function () {
+            let ul = document.querySelector('ul')
             let fragment = document.createDocumentFragment()
-            for( let i = 0 ; i < 1000 ; i++){
-                let li  = document.createElement('li')
-                li.appendChild(document.createTextNode('hello world'+i))
-                fragment.appendChild(li)
+            for (let i = 0; i < 100; i++) {
+                let li = document.createElement('li')
+                li.appendChild(document.createTextNode('hello world' + i))
+                // setTimeout(function(){
+                    fragment.appendChild(li)
+                // },0)
             }
             ul.appendChild(fragment)
+        })()
+    </script>
+</body>
 
-        </script>
-    </body>
 </html>
