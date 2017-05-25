@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+     <ul></ul>
+    <body>
+        <script>
+            let ul = document.querySelector('ul')    
+            let fragment = document.createDocumentFragment()
+            for( let i = 0 ; i < 1000 ; i++){
+                let li  = document.createElement('li')
+                li.appendChild(document.createTextNode('hello world'+i))
+                fragment.appendChild(li)
+            }
+            ul.appendChild(fragment)
+
+        </script>
+    </body>
+</html>
