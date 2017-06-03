@@ -5,7 +5,7 @@
 function on(ele, type,handler){
 	
 	if(ele.addEventListener){
-		ele.addEventListener(type, handler )
+		ele.addEventListener(type, handler , true)
 	} else if(ele.attachEvent){
 		ele.attachEvent('on'+type, handler)
 	} else{
