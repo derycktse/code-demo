@@ -6,11 +6,20 @@
   "configurations": [
     {
       "type": "node",
+      "request": "attach",
+      "name": "Attach by Process ID",
+      // "processId": "${command:PickProcess}",
+      "port": 5858
+    },
+    {
+      "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "cwd": "${workspaceRoot}/redux-practice/source-code",
-      "program": "${workspaceRoot}/redux-practice/source-code/index.js"
-      // "program": "${file}"
+      // "program": "${workspaceRoot}/test.js"
+      "program": "${workspaceRoot}/node_modules/.bin/webpack",
+      "args": [
+        "--debug-brk"
+      ]
     }
   ]
 }

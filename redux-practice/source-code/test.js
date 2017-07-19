@@ -1,5 +1,6 @@
 
-import { createStore, applyMiddleware } from 'redux'
+// import redux from './node_modules/redux/src'
+import {createStore, applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
 import logger from 'redux-logger'
 
@@ -14,3 +15,6 @@ store.dispatch(dispatch => {
   return {}
 })
 
+import { mo2 } from './test2'
+mo2()
+debugger
