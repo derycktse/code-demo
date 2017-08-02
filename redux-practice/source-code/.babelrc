@@ -1,8 +1,6 @@
 {
+  "ignore": false,
   "presets": [
-    "es2015",
-    [
-      "env"
-    ]
+    "es2015"
   ]
 }

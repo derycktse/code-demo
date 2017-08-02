@@ -1,6 +1,6 @@
 
 // import redux from './node_modules/redux/src'
-import {createStore, applyMiddleware} from 'redux'
+import {createStore, applyMiddleware} from './es/'
 import thunk from 'redux-thunk'
 import logger from 'redux-logger'
 
