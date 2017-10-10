@@ -1,0 +1,24 @@
+{
+  "exclude": [
+    ".tmp",
+    "assets",
+    "build",
+    "config",
+    "code-converage",
+    "image-pre-process",
+    "mochawesome-report",
+    "node_modules",
+    "publish-scripts",
+    "test",
+    "views"
+  ],
+  "reporter": [
+    "lcov",
+    "text",
+    "text-summary",
+    "html"
+  ],
+  "cache": true,
+  "all": true,
+  "report-dir": "./code-coverage"
+}
