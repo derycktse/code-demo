@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2017-10-10T16:53:07.816Z",
-    "end": "2017-10-10T16:53:07.832Z",
-    "duration": 16,
+    "start": "2017-10-11T01:54:57.808Z",
+    "end": "2017-10-11T01:54:57.821Z",
+    "duration": 13,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -38,8 +38,8 @@
             "code": "expect(add(1, 1)).to.be.equal(2);",
             "err": {},
             "isRoot": false,
-            "uuid": "035b1020-2dd8-4ad7-84d8-ddff8148ba7b",
-            "parentUUID": "52939eda-4ed1-47cc-b4d5-738912134af9",
+            "uuid": "a6347a64-a89c-43ed-9f35-4f0ea753f086",
+            "parentUUID": "34a3d9de-bf10-4425-8776-279d04f7da16",
             "isHook": false,
             "skipped": false
           }
@@ -48,10 +48,10 @@
         "root": false,
         "_timeout": 20000,
         "file": "/test/add.test.js",
-        "uuid": "52939eda-4ed1-47cc-b4d5-738912134af9",
+        "uuid": "34a3d9de-bf10-4425-8776-279d04f7da16",
         "beforeHooks": [],
         "afterHooks": [],
-        "fullFile": "/Users/Deryck/Documents/Github/code-demo/nyc/test/add.test.js",
+        "fullFile": "/Users/deryck.xie/Documents/Github/code-demo/nyc/test/add.test.js",
         "passes": [
           {
             "title": "1 加 1 应该等于 2",
@@ -66,8 +66,8 @@
             "code": "expect(add(1, 1)).to.be.equal(2);",
             "err": {},
             "isRoot": false,
-            "uuid": "035b1020-2dd8-4ad7-84d8-ddff8148ba7b",
-            "parentUUID": "52939eda-4ed1-47cc-b4d5-738912134af9",
+            "uuid": "a6347a64-a89c-43ed-9f35-4f0ea753f086",
+            "parentUUID": "34a3d9de-bf10-4425-8776-279d04f7da16",
             "isHook": false,
             "skipped": false
           }
@@ -95,7 +95,7 @@
     "pending": [],
     "root": true,
     "_timeout": 20000,
-    "uuid": "5d68e5c5-b739-4245-8f29-8404fa62b256",
+    "uuid": "33eb2afb-b8e7-4eba-90a9-e34d9ba89f5f",
     "beforeHooks": [],
     "afterHooks": [],
     "fullFile": "",
@@ -133,8 +133,8 @@
       "code": "expect(add(1, 1)).to.be.equal(2);",
       "err": {},
       "isRoot": false,
-      "uuid": "035b1020-2dd8-4ad7-84d8-ddff8148ba7b",
-      "parentUUID": "52939eda-4ed1-47cc-b4d5-738912134af9",
+      "uuid": "a6347a64-a89c-43ed-9f35-4f0ea753f086",
+      "parentUUID": "34a3d9de-bf10-4425-8776-279d04f7da16",
       "isHook": false,
       "skipped": false
     }
@@ -154,8 +154,8 @@
       "code": "expect(add(1, 1)).to.be.equal(2);",
       "err": {},
       "isRoot": false,
-      "uuid": "035b1020-2dd8-4ad7-84d8-ddff8148ba7b",
-      "parentUUID": "52939eda-4ed1-47cc-b4d5-738912134af9",
+      "uuid": "a6347a64-a89c-43ed-9f35-4f0ea753f086",
+      "parentUUID": "34a3d9de-bf10-4425-8776-279d04f7da16",
       "isHook": false,
       "skipped": false
     }
