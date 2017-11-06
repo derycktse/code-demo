@@ -1,0 +1,8 @@
+{
+  "presets": [
+    "env"
+  ],
+  "only": [
+    "/test"
+  ]
+}
