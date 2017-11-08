@@ -7,4 +7,4 @@
 
 import { multiply } from './mod'
 
-console.log(multiply(1, 3))
+console.log(multiply(2, 3))
