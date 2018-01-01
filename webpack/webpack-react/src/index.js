@@ -5,9 +5,15 @@ import { createStore } from 'redux'
 class Dery extends React.Component {
   constructor() {
     super()
+    debugger
     console.log('constructor')
   }
+  shouldComponentUpdate(){
+    debugger
+    return true
+  }
   render() {
+    debugger
     console.log('render')
     const { dispatch } = this.props
     return (<div>
