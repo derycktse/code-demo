@@ -31,12 +31,18 @@ class Child extends React.Component {
 class Parent extends React.Component {
   constructor() {
     super()
+    debugger
     console.log('constructor')
     this.state = {
       visible : "no"
     }
   }
+  shouldComponentUpdate(){
+    debugger
+    return true
+  }
   render() {
+    debugger
     console.log('render')
     const { dispatch } = this.props
     return (<div>
