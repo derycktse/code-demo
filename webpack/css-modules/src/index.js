@@ -1,7 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import UsingStyleName from './UsingStyleName';
+import UsingStylesProperty from './UsingStylesProperty';
+import UsingStylesPropertyStyles from './UsingStylesProperty/custom.css';
 
-ReactDOM.render(
-  <div>hello world</div>,
-  document.querySelector('#app')
-)
+ReactDOM.render(<div>
+    <UsingStyleName />
+    <UsingStylesProperty styles={UsingStylesPropertyStyles} />
+</div>, document.querySelector('#app'));

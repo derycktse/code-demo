@@ -13,18 +13,19 @@ module.exports = {
         loader: "babel-loader"
       }, {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]')
+        loader: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [
+            'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]&minimize']
+        })
       },
     ]
   },
   plugins: [
-    // {
-    //   test: /\.css$/,
-    //   use: ExtractTextPlugin.extract({
-    //     fallback: 'style-loader',
-    //     use: 'css-loader?modules,localIdentName="[name]-[local]-[hash:base64:6]"'
-    //   }),
-    // }
+    new ExtractTextPlugin({
+      filename: './app.css',
+      allChunks: true
+    })
   ],
   devServer: {
 
