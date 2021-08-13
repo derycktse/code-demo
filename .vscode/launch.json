@@ -1,16 +1,18 @@
 {
-  // Use IntelliSense to learn about possible Node.js debug attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "cwd": "${workspaceRoot}/redux-practice/source-code",
-      "program": "${workspaceRoot}/redux-practice/source-code/index.js"
-      // "program": "${file}"
+      "cwd": "${workspaceRoot}/koa-express",
+      "program": "${workspaceRoot}/koa-express/koa-demo.js"
+    },
+    {
+      "type": "pwa-node",
+      "name": "Run Current File",
+      "request": "launch",
+      "program": "${workspaceFolder}/koa-source/server.js"
     }
   ]
 }
