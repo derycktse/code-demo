@@ -5,6 +5,7 @@ const app = new koa()
 const router = Router()
 
 app.use(async(ctx, next) => {
+  console.log(ctx.request)
   console.log('I am the first middleware')
   await next()
   console.log('first middleware end calling')
@@ -24,6 +25,12 @@ router.get('/api/test1', async(ctx, next) => {
 router.get('/api/testerror', async(ctx, next) => {
   throw new Error('I am error.')
 })
+
+// router.get('/*', async(ctx, next) => {
+//   console.log('your are in')
+//   ctx.body = 'hello'
+// })
+
 
 app.use(router.routes())
 
