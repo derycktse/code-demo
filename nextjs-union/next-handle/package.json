@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "SOURCE_MAP=true next build",
+    "start": "next start",
+    "prod": "  NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^9.4.2"
+    "@zeit/next-source-maps": "0.0.3",
+    "next": "9.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
