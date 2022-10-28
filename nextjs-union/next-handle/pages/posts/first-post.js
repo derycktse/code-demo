@@ -13,8 +13,8 @@ export default function FirstPost() {
       console.log(123);
     }, 3000)
   });
+
   if (typeof window !== "undefined") {
-    // throw Error()
     obj = {}
   }
 
