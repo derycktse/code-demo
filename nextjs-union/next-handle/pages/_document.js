@@ -1,9 +1,11 @@
 import Document, { Html, Head, Main, NextScript,  } from 'next/document'
 
 
+
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     console.log('document getinitial props fired!!')
+    console.log("document url", ctx.req.url)
     if (typeof window !== 'undefined') {
       return {};
     }
@@ -18,10 +20,12 @@ class MyDocument extends Document {
   }
 
   render(){
+    const {req} = this.props
+    console.log('document render')
     return (
       <Html>
         <Head>
-          <title>my document</title>
+          <title>title{req.url}</title>
         </Head>
         <body>
           <Main />
@@ -32,3 +36,11 @@ class MyDocument extends Document {
   }
 }
 export default MyDocument;
+
+
+export function getServerSideProps({params,req,res,query,preview,previewData,resolvedUrl,locale,locales,defaultLocale}) {
+  console.log('document getServerSideProps')
+  return {
+    document: 'getServerSideProps'
+  }
+}

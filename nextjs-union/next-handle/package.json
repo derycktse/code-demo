@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "SOURCE_MAP=true next build",
+    "build": "next build",
     "start": "next start",
     "prod": "  NODE_ENV=production node server.js"
   },

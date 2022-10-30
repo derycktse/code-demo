@@ -15,7 +15,10 @@ export default function Home() {
           Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <h1 className="title">
-          Read <Link href="/posts/first-post">this page!</Link>
+          Read <Link href="/posts/first-post">this page!(next/Link)</Link>
+        </h1>
+        <h1 className="title">
+          Read <a href="/posts/first-post">this page!(a anchor)</a>
         </h1>
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -210,4 +213,16 @@ export default function Home() {
       `}</style>
     </div>
   )
+}
+
+
+
+export  function getServerSideProps({params,req,res,query,preview,previewData,resolvedUrl,locale,locales,defaultLocale}) {
+  console.log('index getServerSideProps')
+  return {
+    props:{
+
+      home: 'getServerSideProps'
+    }
+  }
 }
