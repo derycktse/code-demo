@@ -28,7 +28,8 @@ export default function FirstPost() {
   return (
     <>
       {/* <ErrorBoundary> */}
-        <h1>First Post{obj.data.a}</h1>
+        <h1>{obj.data.a}</h1>
+        <h1>First Post</h1>
         <h2>
           <Link href="/">Back to home</Link>
           <a href="/">Back to home</a>

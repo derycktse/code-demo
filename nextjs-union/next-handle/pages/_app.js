@@ -9,9 +9,9 @@ function MyApp({ Component, pageProps, optimize }) {
   const { buildId } = optimize
   return (
     <div id="myapp">
-      {/* <ErrorBoundary> */}
+      <ErrorBoundary>
         <Component {...pageProps} />
-      {/* </ErrorBoundary> */}
+      </ErrorBoundary>
     </div>
   )
 }
