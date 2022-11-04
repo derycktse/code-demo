@@ -1,0 +1,52 @@
+{
+  "devFiles": [],
+  "lowPriorityFiles": [
+    "static/G5_KMFeOP1cb3jrkxSozv/_buildManifest.js",
+    "static/G5_KMFeOP1cb3jrkxSozv/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.3551590cb041d4746298.js",
+      "static/chunks/c3051510b44c118f4cdd08938f029f49b4a38c26.578bc921f359735d8931.js",
+      "static/runtime/main-fca3445c492ab429782f.js"
+    ],
+    "/404": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.3551590cb041d4746298.js",
+      "static/runtime/main-fca3445c492ab429782f.js"
+    ],
+    "/500": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.3551590cb041d4746298.js",
+      "static/runtime/main-fca3445c492ab429782f.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.3551590cb041d4746298.js",
+      "static/chunks/c3051510b44c118f4cdd08938f029f49b4a38c26.578bc921f359735d8931.js",
+      "static/runtime/main-fca3445c492ab429782f.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.3551590cb041d4746298.js",
+      "static/runtime/main-fca3445c492ab429782f.js"
+    ],
+    "/_polyfills": [
+      "static/runtime/polyfills-f500672a22b5a3a6edae.js",
+      "static/runtime/polyfills-f500672a22b5a3a6edae.js.map"
+    ],
+    "/index": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.3551590cb041d4746298.js",
+      "static/chunks/c3051510b44c118f4cdd08938f029f49b4a38c26.578bc921f359735d8931.js",
+      "static/runtime/main-fca3445c492ab429782f.js"
+    ],
+    "/posts/first-post": [
+      "static/runtime/webpack-c212667a5f965e81e004.js",
+      "static/chunks/framework.3551590cb041d4746298.js",
+      "static/chunks/c3051510b44c118f4cdd08938f029f49b4a38c26.578bc921f359735d8931.js",
+      "static/runtime/main-fca3445c492ab429782f.js"
+    ]
+  }
+}
