@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"1HF/":function(n,t,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/_error",function(){return e("Y0NT")}])},Qetd:function(n,t,e){"use strict";var r=Object.assign.bind(Object);n.exports=r,n.exports.default=n.exports},Y0NT:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return u}));var r=e("q1tI"),o=e.n(r).a.createElement;function u(){return o("h1",null,"_error page by deryck")}}},[["1HF/",0,1]]]);
-//# sourceMappingURL=_error.js.map

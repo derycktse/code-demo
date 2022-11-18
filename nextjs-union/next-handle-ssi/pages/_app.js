@@ -3,7 +3,6 @@ import ErrorBoundary from '../src/component/error-boundary'
 
 
 function MyApp({ Component, pageProps, optimize }) {
-  debugger
   console.log('_app render')
 
   const { buildId } = optimize
@@ -19,7 +18,6 @@ function MyApp({ Component, pageProps, optimize }) {
 
 MyApp.getInitialProps = async function ({ Component, ctx }) {
 
-  debugger
   console.log('_app getInitial Prop fired')
   // console.log("app url", ctx.req.url)
   let optimize;
