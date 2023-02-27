@@ -16,6 +16,6 @@
     "webpack-dev-server": "^2.9.5"
   },
   "dependencies": {
-    "http-server": "^0.10.0"
+    "http-server": "^14.1.1"
   }
 }
